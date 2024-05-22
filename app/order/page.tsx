@@ -10,7 +10,7 @@ const OnlineOrder = async () => {
     <div className="w-full lg:h-[350vh] h-auto lg:p-0 p-16 flex justify-center items-center">
       <Cross link="/" />
       {!user ? (
-        <div className="flex flex-col justify-center items-center gap-y-3 absolute top-[250px] lg:top-[300px]">
+        <div className="flex flex-col justify-center items-center gap-y-3 lg:absolute lg:top-[300px] mb-[530px]">
           <h1 className="font-tangerine lg:text-3xl text-2xl font-bold">
             Login is required! Please sign-in to order.
           </h1>

@@ -21,7 +21,7 @@ const ReviewPage = async () => {
         <ReviewForm />
       ) : (
         <div className="flex justify-center items-center flex-col p-6 bg-gradient-to-br from-fuchsia-900 to-violet-500 w-full border-t-2 border-yellow-100">
-          <h1 className="font-tangerine text-[#fffebb] font-medium lg:text-4xl text-3xl text-center">
+          <h1 className="font-tangerine text-[#fffebb] font-medium lg:text-6xl text-4xl text-center">
             Please dont leave without rating us!
           </h1>
           <div className="my-6 lg:my-9 flex items-center flex-col float-start gap-y-5 p-6 border-2 border-black rounded-xl shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]">
