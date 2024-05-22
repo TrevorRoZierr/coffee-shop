@@ -24,9 +24,9 @@ const About = () => {
           fields of Saint-Denis, France. Our signature coffee beans boast a
           captivating fusion of flavors, blending the delicate floral notes of
           Japanese coffee with the rich, earthy undertones of French beans. From
-          the volcanic soils of Japan's countryside to the sun-kissed vineyards
-          of Saint-Denis, our beans are meticulously handpicked to ensure
-          unparalleled quality and freshness.
+          the volcanic soils of Japans countryside to the sun-kissed
+          vineyards of Saint-Denis, our beans are meticulously handpicked to
+          ensure unparalleled quality and freshness.
           <br />
           <br /> Each sip of YVL coffee evokes a sense of wanderlust,
           transporting you to the serene landscapes where the beans were

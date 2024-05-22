@@ -59,7 +59,10 @@ const RenderOrder = () => {
   return (
     <div className="grid lg:grid-cols-4 grid-cols-1 lg:gap-6 gap-4">
       {coffeeData.map((item: any) => (
-        <div className="flex flex-col gap-y-4 items-center justify-center text-center p-2 border-2 border-black bg-[#fffebb]">
+        <div
+          key={item.id}
+          className="flex flex-col gap-y-4 items-center justify-center text-center p-2 border-2 border-black bg-[#fffebb]"
+        >
           <img
             src={item.image}
             className="w-[300px] h-[300px] border-2 border-black rounded"
@@ -73,7 +76,10 @@ const RenderOrder = () => {
       ))}
 
       {vegData.map((item: any) => (
-        <div className="flex flex-col gap-y-4 items-center justify-center text-center p-2 border-2 border-black bg-[#fffebb]">
+        <div
+          key={item.id}
+          className="flex flex-col gap-y-4 items-center justify-center text-center p-2 border-2 border-black bg-[#fffebb]"
+        >
           <img
             src={item.image}
             className="w-[300px] h-[300px] border-2 border-black rounded-lg"
@@ -87,7 +93,10 @@ const RenderOrder = () => {
       ))}
 
       {nonVegData.map((item: any) => (
-        <div className="flex flex-col gap-y-4 items-center justify-center text-center p-2 border-2 border-black bg-[#fffebb]">
+        <div
+          key={item.id}
+          className="flex flex-col gap-y-4 items-center justify-center text-center p-2 border-2 border-black bg-[#fffebb]"
+        >
           <img
             src={item.image}
             className="w-[300px] h-[300px] border-2 border-black rounded-lg"
@@ -101,7 +110,10 @@ const RenderOrder = () => {
       ))}
 
       {dessertData.map((item: any) => (
-        <div className="flex flex-col gap-y-4 items-center justify-center text-center p-2 border-2 border-black bg-[#fffebb]">
+        <div
+          key={item.id}
+          className="flex flex-col gap-y-4 items-center justify-center text-center p-2 border-2 border-black bg-[#fffebb]"
+        >
           <img
             src={item.image}
             className="w-[300px] h-[300px] border-2 border-black rounded-lg"
