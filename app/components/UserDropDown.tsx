@@ -28,17 +28,16 @@ const UserDropDown = async () => {
         className="w-[200px] p-6 mt-2 ml-2 bg-violet-700 text-[#fffebb] border-2 border-black"
       >
         <DropdownMenuItem>
-          <Link href="/" className="w-full">
-            Socials
-          </Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <Link href="/" className="w-full">
+          <Link href="/erd.png" target="_blank" className="w-full">
             ERD
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
-          <Link href="/" className="w-full">
+          <Link
+            href="https://sayyedsaad.vercel.app/"
+            target="_blank"
+            className="w-full"
+          >
             Portfolio
           </Link>
         </DropdownMenuItem>
